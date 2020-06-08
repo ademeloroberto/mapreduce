@@ -57,5 +57,6 @@ for line in sys.stdin:
     # the previous key for the next iteration is the current key of the this iteration 
     previous_key = key
 
-# write the last result to stdout
-sys.stdout.write("{0}\t{1}\n".format(previous_key, count_of_values))
+if count_of values > 114:    
+    # write the last result to stdout
+    sys.stdout.write("{0}\t{1}\n".format(previous_key, count_of_values))
