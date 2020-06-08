@@ -25,7 +25,7 @@ import sys
 # Output is tabulator (\t) separated 
 # New Line (\n) indicates a new record
 # Output is writing to the standard output
-
+categories = ["Computers", "Cameras", "Video Games"]
 # For each new line in the standard input (stdin) 
 for line in sys.stdin:
 
@@ -37,8 +37,7 @@ for line in sys.stdin:
     # store the 6 elements of the tuple in seperate variables
     date, time, item, category, sales, payment = data
     
-    if len(data) < 6:
-        raise ValueError("Not enough elements")
+    if category not in categories:
         pass
     else:
 
